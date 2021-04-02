@@ -1,0 +1,11 @@
+Créer nouveau labyrinthe parfait:
+m = Maze.create_perfect_maze(Maze, 10, 10)
+
+Imprimer la solution:
+m.print_solution()
+
+Sauvegarder:
+m.save("save.txt")
+
+Charger:
+m = Maze.load(Maze, "save.txt")
